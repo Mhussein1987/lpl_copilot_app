@@ -1,29 +1,30 @@
-# Ignore Python cache and virtual environment
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.venv/
-venv/
-ENV/
-env/
-
+node_modules/
 # Ignore environment variables
 .env
-
-# Ignore Jupyter Notebook checkpoints
-.ipynb_checkpoints/
+.env.local
 
 # Ignore macOS system files
 .DS_Store
 
-# Ignore Streamlit logs and temp files
+# Ignore temp files
+.temp*
+
+# Ignore build output
+.next/
+
+# Ignore log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Streamlit logs and temp files (legacy)
 .streamlit/
 
-# Ignore pickle and FAISS index files
+# Ignore pickle and FAISS index files (legacy)
 *.pkl
 *.faiss
 *.npy
 *.npz
-
-tempfile*

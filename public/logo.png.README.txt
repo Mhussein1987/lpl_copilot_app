@@ -1,0 +1,2 @@
+// Place your logo image here.
+// Example usage in your app: <img src="/logo.png" ... />
